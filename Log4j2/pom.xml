@@ -5,13 +5,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.interblocks.test</groupId>
+		<groupId>com.test</groupId>
 		<artifactId>LogParent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<!-- <groupId>com.interblocks.test</groupId> -->
 	<artifactId>Log4j2</artifactId>
-	<!-- <version>0.0.1-SNAPSHOT</version> -->
 	<name>Log4j2</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -66,7 +64,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.interblocks.test.log4j2.Log4j2Test</mainClass>
+							<mainClass>com.test.log4j2.Log4j2Test</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
