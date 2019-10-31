@@ -15,11 +15,12 @@ public class LogbackTest
 	final static Logger logger = LoggerFactory.getLogger(LogbackTest.class);
     public static void main( String[] args )
     {
-    	
+			logger.fatal("LogbackTest #0");
     	   logger.info("LogbackTest #1");
            logger.warn("LogbackTest #2");
            logger.error("LogbackTest #3");
            logger.debug("LogbackTest #4");
+		   
            
            System.out.println("calling other class");
            
