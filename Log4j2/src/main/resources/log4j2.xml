@@ -6,7 +6,7 @@
     </Console>
   </Appenders>
   <Loggers>
-    <Logger name="com.interblocks.test.log4j2" level="trace" additivity="false">
+    <Logger name="com.test.log4j2" level="trace" additivity="false">
       <AppenderRef ref="Console"/>
     </Logger>
     <Root level="error">

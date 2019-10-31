@@ -1,4 +1,4 @@
-package com.interblocks.test.log4j2;
+package com.test.log4j2;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
